@@ -1,0 +1,29 @@
+Change the whole format
+for user Registration 
+get the input such as Name,Phone no,email,address,city,password
+and store it in the database
+for admin, get the details such as name, password 
+in admin dashboard , three things are present
+1) Add restaurent
+that contains name,address,Array of Food that contains foodname,quantity, prices
+and City(city is important)
+2) Add products
+in add product, list the restaurents and add details like foodname,quantity,prices
+
+3) Delivery person
+this contains name,phone no,city,charge amount
+
+in user dashboard, user can view restaurents along with their food items details and they can add it in cart and place order
+when they hit place order, they redirect to payment page there is a bill that contains total amount along with what foods and delivery charge 
+below that they can choose they method of payment such as gpay, phonepay,card etc
+After payment, the bill is generated as username, gmail,phoneno,timestamp but time and date, restaurent name, food name, quantity, price, delivery charge, total amount, payment method
+and it is sent in neat format as gmail as
+email_address = "bb1.deavanathan.s@gmail.com"
+password = "ipwm okbq ryso xyjc"
+toaddr = "dnathan781@gmail.com"
+
+
+Now here's the main concern
+Use builder pattern for the bill
+
+Strategy pattern for payment
